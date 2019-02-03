@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
+main {
+  font-family: 'Share Tech Mono', monospace;
+  padding: .5rem 1rem;
+}
+
+h1 {
+  position: relative;
+  padding-bottom: .3rem;
+}
+
+h1:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: url('./images/line.svg');
+  height: .5rem;
+  width: 100%;
+}
+
+h2 {
+  margin: 2rem 0;
+}
+
+.button {
+  color: #FFFAFA;
+  background-color: #1B1B1B;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: .3rem;
+  transition: color 0.5s ease;
+}
+
+.button:hover {
+  transition: color 0.5s ease;
+  color: #1B1B1B;
+}
+
+img {
+  width: 5rem;
+}
+
+.pricing {
+
+}
