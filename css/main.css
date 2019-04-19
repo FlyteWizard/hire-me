@@ -1,10 +1,13 @@
+/* Google Font */
 @import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
 
+/* Main */
 main {
   font-family: 'Share Tech Mono', monospace;
   padding: .5rem 1rem;
 }
 
+/* Typography */
 h1 {
   position: relative;
   padding-bottom: .3rem;
@@ -16,7 +19,7 @@ h1:after {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-image: url('./images/line.svg');
+  background-image: url('../images/line.svg');
   height: .5rem;
   width: 100%;
 }
@@ -25,6 +28,7 @@ h2 {
   margin: 2rem 0;
 }
 
+/* Fake Buttons */
 .button {
   color: #FFFAFA;
   background-color: #1B1B1B;
@@ -39,10 +43,7 @@ h2 {
   color: #1B1B1B;
 }
 
+/* Images */
 img {
   width: 5rem;
-}
-
-.pricing {
-
 }
