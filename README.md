@@ -2,7 +2,7 @@
 
 Website to Hire Me
 
-![Promo of Website][/images/promo.png]
+![Promo of Website](/images/promo.png)
 
 ## Built With
 
